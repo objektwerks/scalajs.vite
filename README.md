@@ -7,6 +7,7 @@ Note
 >The Vite following commands currently faile:
 1. npm run build ( Could not resolve entry module "index.html" )
 2. npm run dev ( No webpage was found for the web address: http://localhost:5173/ )
+>Vite, the successor to Snowpack, is disappointing. Stay with what works for now.
 
 Install
 -------
