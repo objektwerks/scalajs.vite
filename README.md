@@ -4,10 +4,10 @@ Scalajs.Vite
 
 Note
 ----
->The following Vite commands currently fail:
+>The following Vite commands **currently fail**:
 1. npm run build ( Could not resolve entry module "index.html" )
 2. npm run dev ( No webpage was found for the web address: http://localhost:5173/ )
->Vite, the successor to Snowpack, is disappointing. Stay with what works for now.
+>Vite, the successor to Snowpack, is disappointing. Stay with what works for you.
 
 Install
 -------
@@ -35,12 +35,12 @@ Dev
 >Edits are reflected in both sessions.
 1. sbt ( new session )
 2. ~ fastLinkJS
-3. npm run dev ( new session ) ( This fails! )
+3. npm run dev ( new session ) ( **This fails!** )
 
 Package
 -------
 1. sbt clean test fullLinkJS
-2. npm run build ( This fails! )
+2. npm run build ( **This fails!** )
 >See **dist** directory.
 
 Console
@@ -50,4 +50,4 @@ Console
 Browser
 -------
 1. sbt clean compile fastLinkJS
-2. npm run dev ( This fails! )
+2. npm run dev ( **This fails!** )
