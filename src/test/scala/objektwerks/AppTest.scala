@@ -2,7 +2,7 @@ package objektwerks
 
 import org.scalajs.dom.document
 
-import utest._
+import utest.*
 
 object AppTest extends TestSuite {
   App.build(document)
