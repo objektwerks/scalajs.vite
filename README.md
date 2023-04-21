@@ -32,13 +32,14 @@ Test
 
 Dev
 ---
->Edits are reflected in both sessions.
+>Edits are reflected in both sessions. This fails!
 1. sbt ( new session )
 2. ~ fastLinkJS
 3. npm run dev ( new session )
 
 Package
 -------
+>This fails!
 1. sbt clean test fullLinkJS
 2. npm run build
 >See **dist** directory.
