@@ -12,7 +12,7 @@ Note
 Install
 -------
 1. brew install node
->See **package.json** for installable dependencies.
+>See **package.json**.
 
 Vite
 ----
