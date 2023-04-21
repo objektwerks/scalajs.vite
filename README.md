@@ -45,9 +45,11 @@ Package
 
 Console
 -------
+>This works!
 1. sbt clean compile fastLinkJS run
 
 Browser
 -------
+>This does not work!
 1. sbt clean compile fastLinkJS
 2. npm run dev
