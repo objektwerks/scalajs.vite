@@ -10,6 +10,7 @@ Install
 Vite
 ----
 1. npm install -D @scala-js/vite-plugin-scalajs@1.0.0
+>See **package.json**.
 
 Build
 -----
