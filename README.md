@@ -42,5 +42,6 @@ Console
 
 Browser
 -------
+>TODO! To include Vite build, dist and run!
 1. sbt clean compile fastLinkJS
 2. npm run dev
