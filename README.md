@@ -1,6 +1,6 @@
 Scalajs.Vite
 ------------
->ScalaJs-Vite feature tests. **Note** Currently a WIP!
+>ScalaJs-Vite feature tests. **Note** This project is currently a WIP!
 
 Install
 -------
