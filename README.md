@@ -1,6 +1,10 @@
 Scalajs.Vite
 ------------
->ScalaJs-Vite feature tests. **Note** This project is currently a WIP!
+>ScalaJs-Vite feature tests.
+
+Note
+----
+>Currently Vite npm run build | dev do not work.
 
 Install
 -------
@@ -32,6 +36,7 @@ Dev
 
 Package
 -------
+>TODO! Fails!
 1. sbt clean test fullLinkJS
 2. npm run build
 >See **build** directory.
@@ -42,6 +47,6 @@ Console
 
 Browser
 -------
->TODO! To include Vite build, dist and run!
+>TODO! Fails!
 1. sbt clean compile fastLinkJS
 2. npm run dev
