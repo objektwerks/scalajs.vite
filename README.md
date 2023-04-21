@@ -4,7 +4,9 @@ Scalajs.Vite
 
 Note
 ----
->Currently Vite npm run build | dev do not work.
+>The Vite following commands currently faile:
+1. npm run build ( Could not resolve entry module "index.html" )
+2. npm run dev
 
 Install
 -------
