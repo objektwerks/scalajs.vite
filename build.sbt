@@ -6,12 +6,6 @@ lazy val public = "public"
 
 scalaVersion := "3.2.2"
 scalaJSUseMainModuleInitializer := true
-scalaJSLinkerConfig ~= {
-  _.withModuleKind(ModuleKind.ESModule)
-    .withModuleSplitStyle(
-      ModuleSplitStyle.SmallModulesFor(List("objektwerks")))
-}
-
 libraryDependencies ++= {
   Seq(
     "org.scala-js" %%% "scalajs-dom" % "2.4.0",
@@ -19,9 +13,7 @@ libraryDependencies ++= {
     "com.lihaoyi" %%% "utest" % "0.8.1" % Test
   )
 }
-
 jsEnv := new org.scalajs.jsenv.jsdomnodejs.JSDOMNodeJSEnv()
 testFrameworks += new TestFramework("utest.runner.Framework")
-
 Compile / fastLinkJS / scalaJSLinkerOutputDirectory := target.value / public
 Compile / fullLinkJS / scalaJSLinkerOutputDirectory := target.value / public
