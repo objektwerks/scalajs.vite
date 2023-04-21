@@ -7,6 +7,10 @@ Install
 1. brew install node
 >See **package.json** for installable dependencies.
 
+Vite
+----
+1. npm install -D @scala-js/vite-plugin-scalajs@1.0.0
+
 Build
 -----
 1. npm install ( only when package.json changes )
