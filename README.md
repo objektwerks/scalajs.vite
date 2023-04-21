@@ -38,10 +38,9 @@ Dev
 
 Package
 -------
->TODO! Fails!
 1. sbt clean test fullLinkJS
 2. npm run build
->See **build** directory.
+>See **dist** directory.
 
 Console
 -------
@@ -49,6 +48,5 @@ Console
 
 Browser
 -------
->TODO! Fails!
 1. sbt clean compile fastLinkJS
 2. npm run dev
