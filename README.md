@@ -1,6 +1,6 @@
 Scalajs.Vite
 ------------
->ScalaJs-Vite feature tests.
+>ScalaJs-Vite feature tests using Scala 3.
 
 Note
 ----
