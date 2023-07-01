@@ -4,7 +4,7 @@ enablePlugins(ScalaJSPlugin)
 
 lazy val public = "public"
 
-scalaVersion := "3.3.1-RC1"
+scalaVersion := "3.3.1-RC2"
 libraryDependencies ++= {
   Seq(
     "org.scala-js" %%% "scalajs-dom" % "2.4.0",
