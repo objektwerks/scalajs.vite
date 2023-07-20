@@ -2,13 +2,6 @@ Scalajs.Vite
 ------------
 >ScalaJs-Vite feature tests using Scala 3.
 
-Note
-----
->The following ***Vite*** commands **currently fail**:
-1. npm run build ( Could not resolve entry module "index.html" )
-2. npm run dev ( No webpage was found for the web address: http://localhost:5173/ )
->**TODO:** Configure Vite directory layout!
-
 Install
 -------
 1. brew install node
