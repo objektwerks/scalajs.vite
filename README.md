@@ -7,8 +7,7 @@ Note
 >The following ***Vite*** commands **currently fail**:
 1. npm run build ( Could not resolve entry module "index.html" )
 2. npm run dev ( No webpage was found for the web address: http://localhost:5173/ )
->And this is most likely due to my unwillingless to bend to the unacceptable Vite
->project layout. The Snowpack approach is much more approachable, IMHO. Rant off! ;)
+>**TODO** Configure Vite directory layout!
 
 Install
 -------
