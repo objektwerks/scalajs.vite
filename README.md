@@ -40,7 +40,7 @@ Dev
 Package
 -------
 1. sbt clean test fullLinkJS
-2. npm run build ( **This fails!** )
+2. npm run build
 >See **dist** directory.
 
 Console
