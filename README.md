@@ -28,7 +28,7 @@ Dev
 >Edits are reflected in both sessions.
 1. sbt ( new session )
 2. ~ fastLinkJS
-3. npm run dev ( new session ) ( **This fails!** )
+3. npm run dev ( new session )
 
 Package
 -------
@@ -43,4 +43,4 @@ Console
 Browser
 -------
 1. sbt clean compile fastLinkJS
-2. npm run dev ( **This fails!** )
+2. npm run dev
