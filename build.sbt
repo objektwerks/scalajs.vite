@@ -16,7 +16,7 @@ jsEnv := new org.scalajs.jsenv.jsdomnodejs.JSDOMNodeJSEnv()
 testFrameworks += new TestFramework("utest.runner.Framework")
 
 scalaJSUseMainModuleInitializer := true
-/* This does not work in any configuration!
+/* This fails! Revisit!
 scalaJSLinkerConfig ~= {
   _.withModuleKind(ModuleKind.ESModule)
     .withModuleSplitStyle(ModuleSplitStyle.SmallModulesFor(List("objektwerks")))
