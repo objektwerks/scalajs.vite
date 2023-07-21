@@ -9,8 +9,7 @@ object App:
     document.addEventListener("DOMContentLoaded", { (_: dom.Event) =>
       build(document)
     })
-    println("*** [println] Scalajs console app!")
-    scribe.info("*** [scribe] Scalajs console app!")
+    scribe.info("*** Scalajs console app!")
 
   def build(document: HTMLDocument): Unit =
     val paragraph = document.createElement("p")
