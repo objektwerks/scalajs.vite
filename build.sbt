@@ -2,8 +2,6 @@ import org.scalajs.linker.interface.ModuleSplitStyle
 
 enablePlugins(ScalaJSPlugin)
 
-lazy val public = "public"
-
 scalaVersion := "3.3.1-RC4"
 libraryDependencies ++= {
   Seq(
