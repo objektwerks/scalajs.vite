@@ -1,5 +1,3 @@
-import org.scalajs.linker.interface.ModuleSplitStyle
-
 enablePlugins(ScalaJSPlugin)
 
 scalaVersion := "3.3.1-RC4"
@@ -12,11 +10,4 @@ libraryDependencies ++= {
 }
 jsEnv := new org.scalajs.jsenv.jsdomnodejs.JSDOMNodeJSEnv()
 testFrameworks += new TestFramework("utest.runner.Framework")
-
 scalaJSUseMainModuleInitializer := true
-scalaJSLinkerConfig ~= {
-  _.withModuleKind(ModuleKind.ESModule)
-    .withModuleSplitStyle(
-      ModuleSplitStyle.SmallModulesFor( List("objektwerks") )
-    )
-}
