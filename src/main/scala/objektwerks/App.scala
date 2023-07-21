@@ -20,7 +20,7 @@ object App:
 
     val button = document.createElement("button")
     button.id = "bid"
-    button.textContent = "Click me!"
+    button.textContent = "Print To Console"
     button.addEventListener("click", { (_: dom.MouseEvent) =>
       println("*** [println] Button clicked!")
       scribe.info("*** [scribe] Button clicked!")
