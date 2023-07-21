@@ -16,5 +16,11 @@ jsEnv := new org.scalajs.jsenv.jsdomnodejs.JSDOMNodeJSEnv()
 testFrameworks += new TestFramework("utest.runner.Framework")
 
 scalaJSUseMainModuleInitializer := true
+scalaJSLinkerConfig ~= {
+  _.withModuleKind(ModuleKind.ESModule)
+    .withModuleSplitStyle(
+      ModuleSplitStyle.SmallModulesFor( List("objektwerks") )
+    )
+}
 Compile / fastLinkJS / scalaJSLinkerOutputDirectory := target.value / public
 Compile / fullLinkJS / scalaJSLinkerOutputDirectory := target.value / public
