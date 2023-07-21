@@ -44,3 +44,7 @@ Browser
 -------
 1. sbt clean compile fastLinkJS
 2. npm run dev
+
+Reference
+---------
+1. [ScalaJs-Vite Tutorial](https://www.scala-js.org/doc/tutorial/scalajs-vite.html)
