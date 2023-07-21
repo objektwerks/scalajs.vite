@@ -21,8 +21,7 @@ object App:
     button.id = "bid"
     button.textContent = "Print To Console"
     button.addEventListener("click", { (_: dom.MouseEvent) =>
-      println("*** [println] Button clicked!")
-      scribe.info("*** [scribe] Button clicked!")
+      scribe.info("*** Button clicked!")
     })
     document.body.appendChild(button)
     ()
