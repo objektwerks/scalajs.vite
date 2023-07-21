@@ -22,5 +22,3 @@ scalaJSLinkerConfig ~= {
       ModuleSplitStyle.SmallModulesFor( List("objektwerks") )
     )
 }
-Compile / fastLinkJS / scalaJSLinkerOutputDirectory := target.value / public
-Compile / fullLinkJS / scalaJSLinkerOutputDirectory := target.value / public
