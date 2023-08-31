@@ -1,6 +1,6 @@
 enablePlugins(ScalaJSPlugin)
 
-scalaVersion := "3.3.1-RC6"
+scalaVersion := "3.3.1-RC7"
 libraryDependencies ++= {
   Seq(
     "org.scala-js" %%% "scalajs-dom" % "2.6.0",
