@@ -1,6 +1,6 @@
 Scalajs.Vite
 ------------
->ScalaJs-Vite feature tests using Scala 3.
+>ScalaJs-Vite feature tests using Scribe, uTest and Scala 3.
 
 Install
 -------
