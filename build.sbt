@@ -8,6 +8,9 @@ libraryDependencies ++= {
     "com.lihaoyi" %%% "utest" % "0.8.4" % Test
   )
 }
+scalacOptions ++= Seq(
+  "-Wall"
+)
 jsEnv := new org.scalajs.jsenv.jsdomnodejs.JSDOMNodeJSEnv()
 testFrameworks += new TestFramework("utest.runner.Framework")
 scalaJSUseMainModuleInitializer := true
