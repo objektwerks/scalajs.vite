@@ -4,7 +4,7 @@ scalaVersion := "3.6.3-RC1"
 libraryDependencies ++= {
   Seq(
     "org.scala-js" %%% "scalajs-dom" % "2.8.0",
-    "com.outr" %%% "scribe" % "3.15.2",
+    "com.outr" %%% "scribe" % "3.15.3",
     "com.lihaoyi" %%% "utest" % "0.8.4" % Test
   )
 }
